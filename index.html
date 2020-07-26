@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toy Piano</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Toy Piano</h1>
+    </header>
+    <div class="container">
+      <h3>Click to play notes!</h3>
+      <div class="base">
+        <div id="c" class="piano-keys">Do</div>
+        <div id="d" class="piano-keys">Re</div>
+        <div id="e" class="piano-keys">Mi</div>
+        <div id="f" class="piano-keys">Fa</div>
+        <div id="g" class="piano-keys">Sol</div>
+        <div id="a" class="piano-keys">La</div>
+        <div id="b" class="piano-keys">Ti</div>
+        <div id="cc" class="piano-keys">Do</div>
+      </div>
+    </div>
+    <div class="help-message">
+      (A, S, D, F, G, H, J, K = Do Re Mi Fa Sol La Ti Do)
+    </div>
+    <div class="container">
+      <h3 class="shortcut-h3">Keyboard Shortcut</h3>
+      <div class="base2">
+        <div id="c" class="keyboard">A</div>
+        <div id="d" class="keyboard">S</div>
+        <div id="e" class="keyboard">D</div>
+        <div id="f" class="keyboard">F</div>
+        <div id="g" class="keyboard">G</div>
+        <div id="a" class="keyboard">H</div>
+        <div id="b" class="keyboard">J</div>
+        <div id="cc" class="keyboard">K</div>
+      </div>
+    </div>
+
+    <div class="container-player">
+      <button id="twinkle" class="btn">Twinkle Little Star</button>
+      <button id="row-your-boat" class="btn">Row Your Boat</button>
+    </div>
+    <div class="container-player">
+      <button id="c-chord" class="chords">C</button>
+      <button id="dm-chord" class="chords">Dm</button>
+      <button id="em-chord" class="chords">Em</button>
+      <button id="f-chord" class="chords">F</button>
+      <button id="g7-chord" class="chords">G7</button>
+      <button id="am-chord" class="chords">Am</button>
+      <button id="bb5-chord" class="chords">Bb5</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
